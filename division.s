@@ -7,4 +7,5 @@ section .text
 			DIV ebx ; this code means 11 divided by 2
 			; the value 2 will be stored on eax
 			; the remainder 1 will be stored on edx
+			; IDIV also does the same thing with IMUL
 			INT 80h
